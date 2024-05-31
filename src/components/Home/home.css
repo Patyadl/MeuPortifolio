@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+        font-family: 'Oktah round bold',monospace;
+    
+}
+body {
+    background-color: #3DA3F5;
+
+}
+
+
+/* --------------------------------------------------*/
+#semicirculo {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    height: 100px;
+    background:#FBF8E5;
+    border-radius: 50% / 100% 100% 0 0;
+    overflow: hidden;
+    
+}
+#semicirculo h1 {
+    text-align: center;
+    color: #070328;
+    font-size: xx-large;
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.imgMenina-content {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+#imgMenina {
+    background-image: url("../../assets/avatarMenina.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 5rem;
+}
+
+/*----------------------------------------------------------*/
+.icone {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+.imgCyber {
+    background-image: url("../../assets/cyber.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 4rem;
+}
+.icones1-content{
+    display: flex;
+    justify-content: center;
+}
+.icones1-content{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.imgJava {
+    background-image: url("../../assets/java.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 3rem;
+}
+.imgSrping {
+    background-image: url("../../assets/spring.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 3rem;
+}
+.imgFlex {
+    background-image: url("../../assets/flex.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 3rem;
+}
+.imgJS {
+    background-image: url("../../assets/js.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 3rem;
+}
+.icones2-content{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.imgRuby {
+    background-image: url("../../assets/ruby.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 3rem;
+    margin-bottom: 2rem;
+}
+.imgAgile {
+    background-image: url("../../assets/agile.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 3rem;
+}
+.imgSql {
+    background-image: url("../../assets/sql.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+      padding: 3rem;
+}
+.imgReact {
+    background-image: url("../../assets/react.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+      padding: 3rem;
+}
+.icones{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background-size: cover;
+    border-radius: 5px;
+
+}
+.icones-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        text-align: center; 
+    }
+    .imgPerfil{
+        padding: 2rem;
+    }
+    .seta{
+        padding: 0.65rem;
+    }
+    #semicirculo {
+        width: 100px;
+        height: 50px;
+    }
+    #semicirculo h1 {
+        font-size: medium;
+        margin-top: 1rem;
+    }
+    #imgMenina {
+        padding: 2.5rem;
+    }
+    .icone {
+        padding: 1rem; 
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    .imgJava, .imgAgile,.imgFlex,.imgJS,.imgReact,.imgRuby,.imgSql,.imgSrping{
+padding: 2rem;
+    }
+}
