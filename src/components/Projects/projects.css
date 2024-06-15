@@ -128,7 +128,7 @@ margin-top: 2rem;
 .projetoStart:hover , .universidade:hover, .universidade-projetos:hover{
     background-color: #f7f6f15a;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 360px) and (max-height: 760px) {
     .projetoStart, .universidade, .universidade-projetos {
 
         flex-direction: column;
@@ -136,30 +136,27 @@ margin-top: 2rem;
         padding: 0px 15px 0px 15px;
     }
     .universidade .unicap, .universidade .embarque , .projetoStart .projetoNear , .projetoStart .start{
-        padding: 3rem;
+        padding: 2rem;
     }
    .projetoStart .start{
    margin-top: 2rem;
    }
-    .start, .projetoNear {
-        width: 200px;
-        height: 150px;
+    .start, .projetoNear , .unicap ,.embarque {
+        width: 130px;
+        height: 60px;
    
     }
-     .unicap, .embarque{
-        width: 200px;
-        height: 100px;
-     }
+   
     .universidade-projetos  .projetoBora,   .universidade-projetos .projetoConfeit{
-       padding: 0.2rem;
-       width: 150px;
-       height: 100px;
+       padding: 0.6rem;
+       width: 80px;
+       height: 40px;
        border-radius: 10px;
     }
     .universidade-projetos .projetoFC{
-        padding: 0.5rem;
-        width: 320px;
-        height: 80px;
+        padding: 0.8rem;
+        width: 200px;
+        height: 50px;
         border-radius: 10px;
     }
  
