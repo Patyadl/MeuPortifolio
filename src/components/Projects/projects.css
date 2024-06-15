@@ -130,21 +130,48 @@ margin-top: 2rem;
 }
 @media only screen and (max-width: 768px) {
     .projetoStart, .universidade, .universidade-projetos {
+
         flex-direction: column;
         align-items: center;
+        padding: 0px 15px 0px 15px;
     }
-    .start, .projetoNear, .unicap, .embarque, .projetoBora, .projetoFC, .projetoConfeit {
-        padding: 4rem;
-        gap: 1rem;
+    .universidade .unicap, .universidade .embarque , .projetoStart .projetoNear , .projetoStart .start{
+        padding: 3rem;
+    }
+   .projetoStart .start{
+   margin-top: 2rem;
+   }
+    .start, .projetoNear {
         width: 200px;
+        height: 150px;
+   
     }
-    .universidade-projetos ,.projetoFC, .projetoBora,.projetoConfeit{
-        overflow: scroll;
-       
+     .unicap, .embarque{
+        width: 200px;
+        height: 100px;
+     }
+    .universidade-projetos  .projetoBora,   .universidade-projetos .projetoConfeit{
+       padding: 0.2rem;
+       width: 150px;
+       height: 100px;
+       border-radius: 10px;
     }
-    .universidade-projetos #txt{
-        font-size: large;
+    .universidade-projetos .projetoFC{
+        padding: 0.5rem;
+        width: 320px;
+        height: 80px;
+        border-radius: 10px;
     }
+ 
+    .universidade-projetos #txt ,  .universidade #txt , .projetoStart #txt {
+        font-size: medium;
+    }
+   
+    .projetoStart :not(#txt) {
+        display: flex;
+        flex-direction: row;
+    }
+    
 }
 
 

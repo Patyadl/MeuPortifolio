@@ -52,7 +52,7 @@ body {
     justify-content: center;
     flex-wrap: wrap; 
 }
-.imgCyber {
+ .imgCyber {
     background-image: url("../../assets/cyber.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -74,7 +74,7 @@ body {
     background-repeat: no-repeat;
     padding: 3rem;
 }
-.imgSrping {
+.imgSpring {
     background-image: url("../../assets/spring.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -169,7 +169,7 @@ body {
         margin-top: 2rem;
         margin-bottom: 1rem;
     }
-    .imgJava, .imgAgile,.imgFlex,.imgJS,.imgReact,.imgRuby,.imgSql,.imgSrping{
+    .imgJava, .imgAgile,.imgFlex,.imgJS,.imgReact,.imgRuby,.imgSql,.imgSpring{
 padding: 2rem;
     }
 }

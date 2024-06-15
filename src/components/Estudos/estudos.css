@@ -1,0 +1,63 @@
+
+#tituloEstudos{
+    margin-top: 4rem;
+    text-align: center;
+    color: #040027;
+    background:#FBF8E5;
+    padding: 10px;
+    width: 40%;
+  border-radius: 5px;
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.6);
+}
+.titulo-content{
+    display: flex;
+    justify-content: center;
+}
+.assuntos {
+   display: flex;
+   justify-content: center;
+   margin-top: 4cm;
+   align-items: center;
+   flex-direction: column;
+   
+}
+.jsversusruby , .responsividade, .udemy{
+    display: flex;
+    
+}
+.jsversusruby .imgRuby, .jsversusruby .imgJS, .background .imgFlex , .background .imgJava ,.background .imgReact{
+   
+    padding: 6rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+
+.imgVersus {
+    background-image: url("../../assets/versus.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 2.65rem;
+   height: 20vh;
+}
+.versus-content{
+    display: flex;
+    flex-direction: column;
+   align-content: flex-end;
+    height: 10vh;
+    margin-top: 4rem;
+    margin-right: 0.75rem;
+}
+
+.background{
+   padding: 10px 80px;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    margin-bottom: 5rem;
+}
+#texto{
+    text-align: center;
+}
+.background #link{
+    color: #040027c1;
+}

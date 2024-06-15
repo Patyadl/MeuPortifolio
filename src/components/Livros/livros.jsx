@@ -4,7 +4,7 @@ import "../Livros/livros.css"
 const Estudos = () => {return (
     <div>
         <Nav />
-    <section className={"livros-contant"}>
+    <section className={"livros-content"}>
        
        <section className={"livros"}>
 

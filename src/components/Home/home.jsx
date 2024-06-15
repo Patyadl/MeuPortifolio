@@ -22,7 +22,7 @@ const Home = () =>{ return (
 
 <section className={"icones1-content"}>
 <div className={"imgJava"}></div>
-    <div className={"imgSrping"}></div>
+    <div className={"imgSpring"}></div>
     <div className={"imgFlex"}></div>
     <div className={"imgJS"}></div>
 </section>
