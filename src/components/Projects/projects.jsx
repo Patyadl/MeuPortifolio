@@ -15,8 +15,8 @@ const Project = () => {return (
      </section>
 
      <section className={"universidade"}>
-    <h1 id={"txt"}>Em 2022.2 entrei a Universidade Católida de Pernambuco e estou cursando o quarto período
-    de Sistemas Para Internet na UNICAP.</h1>
+    <h1 id={"txt"}>Em 2022.2 entrei a Universidade Católica de Pernambuco e estou cursando o quarto período
+    de Sistemas Para Internet.</h1>
     <div className={"embarque"}></div>
     <div className={"unicap"}></div>
      </section>
