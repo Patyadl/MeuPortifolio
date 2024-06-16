@@ -29,8 +29,6 @@
 .jsversusruby .imgRuby, .jsversusruby .imgJS, .background .imgFlex , .background .imgJava ,.background .imgReact{
    
     padding: 6rem;
-    background-size: contain;
-    background-repeat: no-repeat;
    
 }
 
@@ -61,6 +59,7 @@
     text-align: justify;
     color: #040027;
     font-size: larger;
+    margin-top: 2rem;
 }
 .background #link{
     color: #040027c1;
