@@ -76,7 +76,13 @@ const Estudos = () => {return (
 
         </div>
         
-       <p id={"texto"}>qualquer coisa</p>  </div>
+       <p id={"texto"}>Aparentemente parece ter nada a ver um versus entre Java e React. E realmente não tem. Porém, criei está seção para 
+        dizer que meus conhecimentos sobre essas duas linguagens adquiri pela Udemy. Eu era totalmente perdida sobre Programação Orientada a Objetos 
+        e um curso dado pelo professo Nélio Alves na Udemy foi extremamente rico para mim. Na Udemy conheci o Redux para gerenciamento de estado. Embora 
+        tendo achado o Redux muito verboso,mas o achei melhor do que a forma como tentava gerenciar os estados antes.
+        <br />
+        Em breve anexo os certificados aqui.
+        </p>  </div> 
 
         </section>
 
