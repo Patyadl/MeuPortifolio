@@ -47,7 +47,21 @@ const Estudos = () => {return (
         <div className={"imgFlex"}></div>
     
 </div>
-<p id={"texto"}>qualquer coisa <a id={"link"} href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">css tricks</a> </p> 
+<p id={"texto"}>Estudei sobre o FlexBox em janeiro de 2023. Via que meus projetos não ficavam com um formato tão legal
+  quando ia para outra tela e então comecei a pesquisar sobre. Posso dizer que aprendi praticamente tudo sobre com o  <a id={"link"} href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">css tricks</a>. O Chris Coyier publicou esse artigo em 2013
+  e sinceramente foi perfeito. Usei outras fontes de pesquisa para entender mais sobre, porém não me recordo.
+  O conceito de Flexbox mudou o meu conceito sobre frontend, por que não é apenas jogar uma div , mas sim entender a estrutura do seu site. Comecei a me 
+  preocupar com a organização dos minhas marcações no HTML, afinal , é bem melhor quando você encontra uma classe so de bater o olho do que ficar procurando 
+  com outras 30 mil que nem estão sendo usadas. <br />
+  Confesso que demorei muito para entender o conceito de : pai e filho. A teoria é fácil , mas na prática por muitas vezes eu não sabia como 
+  implementar. A famosa pesquisa: como centralizar uma div? Fiz muitas vezes. Atualmente é bem mais fácil estruturar um site e algumas vezes eu 
+  já sei o que digitar bem antes de iniciar. Tudo foi questão de prática. Muita prática. Por outro lado, Grid não é tão simples. Sua estrutura é bem diferente
+  do FlexBox. Em casos onde várias células são necessárias o Grid é o mais indicado a ser usado.
+  <br />
+ Assim, aprendi que antes de programar você analisa o que irá precisar e decide qual o mais adequado para cada caso.
+ <br />
+ Neste portifólio utilizei conceitos de Flexbox e pretendo com o tempo deixar ele responsivo para tamanhos menores.
+   </p>
         </div>
 
         <div className={"background"}>
