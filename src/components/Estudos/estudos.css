@@ -25,6 +25,7 @@
 .jsversusruby , .responsividade, .udemy{
     display: flex;
     justify-content: center;
+    
 }
 .jsversusruby .imgRuby, .jsversusruby .imgJS, .background .imgFlex , .background .imgJava ,.background .imgReact{
    
@@ -54,6 +55,7 @@
     border-radius: 15px;
     margin-bottom: 5rem;
     margin: 2rem;
+    background-color: #f7f6f15a;
 }
 #texto{
     text-align: justify;

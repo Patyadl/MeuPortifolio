@@ -2,27 +2,27 @@
     background-image: url("../../assets/livroJava.png");
     background-size: contain;
     background-repeat: no-repeat;
-    padding: 10rem;
+    padding: 8rem;
 }
 
 .livroSeguranca{
     background-image: url("../../assets/livroSeguranca.png");
     background-size: contain;
     background-repeat: no-repeat;
-    padding: 10rem;
+    padding: 8rem;
     
 }
 .livroRedes{
     background-image: url("../../assets/livroRedes.png");
     background-size: contain;
     background-repeat: no-repeat;
-    padding: 10rem;
+    padding: 8rem;
 }
 .livroSistemas{
     background-image: url("../../assets/livroSistemas.png");
     background-size: contain;
     background-repeat: no-repeat;
-    padding: 10rem;
+    padding: 8rem;
     
 }
 
@@ -31,39 +31,41 @@
     justify-content: center;
     align-content: center;
     margin-top: 8rem;
-    
+    gap: 4rem;
 }
 .livro #nota{
    display: flex;
 justify-content: center;
 align-items: center;
 border-radius: 15px;
-padding: 10px;
+padding: 15px 8px;
 width: 65%;
-font-size: large;
+font-size: medium;
 color: #040027;
 background-color: #e0e7ef;
 margin-top: 1rem;
 box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.6);
+text-align: center;
 }
 
-@media only screen and (max-width: 360px) and (max-height: 740px) {
+@media only screen and (max-width: 800px) {
  
     .livroJava,.livroRedes,.livroRedes,.livroSeguranca,.livroSistemas{
-        padding: 4rem;
+  padding: 6rem;
      
     }
-    .livro #nota{
-     font-size: medium;
-     padding: 5px;
- text-align: center;
-     margin-bottom: 2rem;
-     }
+  
      .livros {
  display: flex;
  flex-direction: row;
         flex-wrap: wrap;
       }
+      .livro #nota{
+     border-radius: 15px;
+     padding: 10px 6px;
+     font-size: small;
+  
+     }
     .livros-content{
         margin-left: 4rem;
     }
