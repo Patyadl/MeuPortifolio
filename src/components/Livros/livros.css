@@ -2,27 +2,27 @@
     background-image: url("../../assets/livroJava.png");
     background-size: contain;
     background-repeat: no-repeat;
-    padding: 8rem;
+    padding: 10rem;
 }
 
 .livroSeguranca{
     background-image: url("../../assets/livroSeguranca.png");
     background-size: contain;
     background-repeat: no-repeat;
-    padding: 8rem;
+    padding: 10rem;
     
 }
 .livroRedes{
     background-image: url("../../assets/livroRedes.png");
     background-size: contain;
     background-repeat: no-repeat;
-    padding: 8rem;
+   padding: 10rem;
 }
 .livroSistemas{
     background-image: url("../../assets/livroSistemas.png");
     background-size: contain;
     background-repeat: no-repeat;
-    padding: 8rem;
+     padding: 10rem;
     
 }
 
