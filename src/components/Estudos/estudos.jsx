@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "../NavBar/nav";
 import "../Estudos/estudos.css"
+import "../Estudos/script"
 const Estudos = () => {return (
     <div className="estudos">
         <Nav  />
@@ -12,6 +13,7 @@ const Estudos = () => {return (
      
         <section className={"assuntos"}>
         <div className={"background"}>
+     
       <div className={"jsversusruby"}>
         <div className={"imgRuby"}></div>
 
@@ -22,12 +24,14 @@ const Estudos = () => {return (
         <div className={"imgJS"}></div>
 
         </div>
-        
+        <div class="section">
+        <div class="container partial"> 
        <p id={"texto"}>Talvez com a imagem acima parece que quero comparar a sintaxe entre elas, mas não é isso.
         Recentemente comecei a estudar como o uso de uma determinada linguagem influencia na velociadade da aplicação. Bom, o Ruby com certeza
         não facilita muito. Entender a estrutura de um projeto que você vai trabalhar antes de começar a programar, é essencial
         para um bom desenvolvimento. Quando eu entendi que saber uma linguagem de programação não é apenas saber codar nela e sim de
-        também entender como ela funciona na sua máquina, foi o estopim para eu começar a estudar de uma maneira mais acertiva. <br />
+        também entender como ela funciona na sua máquina, foi o estopim para eu começar a estudar de uma maneira mais acertiva. <br /> 
+    
         Meu primeiro estudo, e não o último, foi relacionando Ruby com JavaScript. Conheci Ruby por acaso e comecei a codar apenas por diversão.
         Achei interessante pesquisar sobre, pois queria integrar o Ruby a um projeto da faculdade. Assim percebi que estudar antes sobre foi a 
         minha melhor escolha. Apesar de ser uma linguagem simples de codar, ela se torna complicada com relação a escalabilidade. O JS possui 
@@ -40,7 +44,13 @@ const Estudos = () => {return (
          especialmente em ambientes assíncronos, será uma escolha bem melhor. <br />
         Para finalizar, pretendo continuar a programar em Ruby e talvez criar um projeto com essa linguagem. Apesar de não ter grande apoio da 
         comunidade.
-       </p>  </div>
+        </p>
+       
+        </div>
+          <a id="a" class="txt-more" href="#" onclick="toggleTextVisibility()">Leia mais</a>
+</div>
+       </div>
+   
 
        <div className={"background"}>
         <div className={"responsividade"}>
@@ -85,6 +95,7 @@ const Estudos = () => {return (
         </p>  </div> 
 
         </section>
+
 
     </div>
 )}

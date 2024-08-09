@@ -66,3 +66,23 @@
 .background #link{
     color: #040027c1;
 }
+.section {
+    position: relative;
+
+}
+
+.section > .txt-more {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.section #a{
+text-decoration: none;
+    color: #2313b4;
+    font-size: large;
+}
+.section > .partial {
+    height: 200px; /* limita a altura aqui, assim irá limitar o texto*/
+    overflow: hidden;
+}

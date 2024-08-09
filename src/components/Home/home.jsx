@@ -7,7 +7,9 @@ const Home = () =>{ return (
       <Nav/>
        <section className={"borda"}>
        <div id="semicirculo"> <h1>Patrícia <br /> Lucena</h1> 
+       
        </div>
+<h6 >Portifólio ainda em desenvolvimento</h6>
 </section>
 
 <section className={"imgMenina-content"}>
@@ -34,7 +36,9 @@ const Home = () =>{ return (
     <div className={"imgReact"}></div>
 </section>
 </section>
+
 </section>
+
     </div>
 )}
 
