@@ -37,14 +37,14 @@
    display: flex;
 justify-content: center;
 align-items: center;
-border-radius: 15px;
+border-radius: 5px;
 padding: 15px 8px;
 width: 65%;
 font-size: medium;
 color: #040027;
 background-color: #e0e7ef;
 margin-top: 1rem;
-box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.6);
+box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.6);
 text-align: center;
 }
 
@@ -59,9 +59,10 @@ text-align: center;
  display: flex;
  flex-direction: row;
         flex-wrap: wrap;
+        margin-top: 2rem;
       }
       .livro #nota{
-     border-radius: 15px;
+     border-radius: 5px;
      padding: 10px 6px;
      font-size: small;
   

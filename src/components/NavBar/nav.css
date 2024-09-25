@@ -8,7 +8,7 @@ nav #logo {
 }
 
 nav {
-    background-color: #3DA3F5;
+    background-color: #4e4f50;
     color: #FBF8E5;
     display: flex;
     justify-content: space-around;
@@ -29,11 +29,13 @@ nav {
     color: #070328;
   }
 .imgPerfil {
-    background-image: url("../../assets/avatarPerfil.png");
+    background-image: url("../../assets/eu.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     padding: 2.50rem;
     margin: 0;
+    border-radius: 50%;
+    border: white solid 2px;
 }
 .seta {
     background-image: url("../../assets/arrow.png");

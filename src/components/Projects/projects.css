@@ -29,10 +29,12 @@
     overflow: hidden; 
     background-color: #f7f6f15a;
 }
+
 #txt {
     color: #040027;
     text-align: justify;
     padding: 1rem; 
+    font-size: large;
     overflow-wrap: break-word; 
 }
 .embarque{
@@ -95,7 +97,7 @@ margin-top: 2rem;
     background-color: #f7f6f15a;
 }
 .universidade-projetos #txt{
-    font-size: xx-large;
+    font-size: large;
     text-align: center;
 }
 .universidade-projetos .images {
@@ -107,13 +109,19 @@ margin-top: 2rem;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 2rem; 
-    border-radius: 20px;
+    padding: 0.5rem; 
+    border-radius: 20px black;
+  
+}
+.projetoStart:hover , .universidade:hover, .universidade-projetos:hover{
+    background-color: #e0e7ef;
 }
 
-.universidade-projetos .images {
+
+.universidade-projetos .images img {
     display: flex;
     justify-content: center;
+ 
 }
 
 .projetoBora, .projetoConfeit{
