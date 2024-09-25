@@ -9,6 +9,7 @@ const Home = () =>{ return (
        <div id="semicirculo"> <h1>Patrícia <br /> Lucena</h1> 
        
        </div>
+       
 <h6 >Portifólio ainda em desenvolvimento</h6>
 </section>
 
