@@ -46,10 +46,10 @@ const Project = () => {
                     
                     <div className="projetoBora"></div>
                     <div className="projetoConfeit"></div>
-                    
+                    <div className="projetoFC"></div>
                 </div>
                 
-                <div className="projetoFC"></div>
+                
                
             </section>
             </div>
