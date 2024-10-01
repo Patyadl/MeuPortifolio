@@ -47,7 +47,7 @@ const Estudos = () => {return (
         </p>
        
         </div>
-          <a id="a" class="txt-more" href="#" onclick="toggleTextVisibility()">Leia mais</a>
+          {/* <a id="a" class="txt-more" href="#" onclick="toggleTextVisibility()">Leia mais</a> */}
 </div>
        </div>
    

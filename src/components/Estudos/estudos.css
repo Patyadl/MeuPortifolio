@@ -82,7 +82,17 @@ text-decoration: none;
     color: #2313b4;
     font-size: large;
 }
-.section > .partial {
-    height: 200px; /* limita a altura aqui, assim irá limitar o texto*/
+/* .section > .partial {
+    height: 200px; 
     overflow: hidden;
-}
+} */
+/* .text-content {
+    max-height: 150px; 
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+  
+  .text-content.show-more {
+    max-height: 300px; 
+    overflow-y: auto; 
+  } */
