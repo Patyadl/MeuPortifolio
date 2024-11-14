@@ -4,6 +4,7 @@ import "../Livros/livros.css"
 const Estudos = () => {return (
     <div>
         <Nav />
+        <h6 >Portifólio ainda em desenvolvimento</h6>
     <section className={"livros-content"}>
        
        <section className={"livros"}>

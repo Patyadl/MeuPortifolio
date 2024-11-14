@@ -18,7 +18,7 @@ body {
     left: 0;
     width: 200px;
     height: 100px;
-    background:#4e4f50;
+    background:#3a26e7;;
     border-radius: 50% / 100% 100% 0 0;
     overflow: hidden;
     
@@ -33,16 +33,19 @@ body {
     margin-top: 2rem;
 }
 
-.imgMenina-content {
+.imgPc-content {
     position: fixed;
     bottom: 0;
     right: 0;
+    width: 200px;
+    height: 170px;
 }
-#imgMenina {
-    background-image: url("../../assets/emogiMusic.png");
+#imgPc {
+    background-image: url("../../assets/pcIcone.png");
     background-size: contain;
     background-repeat: no-repeat;
-    padding: 5rem;
+    padding: 8rem;
+
 }
 
 /*----------------------------------------------------------*/

@@ -13,8 +13,8 @@ const Home = () =>{ return (
 <h6 >Portifólio ainda em desenvolvimento</h6>
 </section>
 
-<section className={"imgMenina-content"}>
-<div id="imgMenina"></div>
+<section className={"imgPc-content"}>
+<div id="imgPc"></div>
 </section>
 
 <section className={"icones-container"}>

@@ -19,6 +19,7 @@ const Project = () => {
     <div>
 
         <Nav />
+        <h6 >Portifólio ainda em desenvolvimento</h6>
         <div className="Projetos">
 
      <section className={"projetoStart-container"} onClick={() => handleOverlay("Participei do projeto Start em 2022 e foi a minha primeira experiência com o mundo da programação. Um projeto bastante enriquecedor, em parceria com a Rede Cidadã e outras empresas como a Accenture. Lá aprendi um pouco de tudo: Lógica de programação, Html, Css, Java, Fazer amigos e construir um projeto.")}>

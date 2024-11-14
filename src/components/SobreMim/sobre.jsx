@@ -4,7 +4,7 @@ import "../SobreMim/sobre.css"
 const Sobre = ({ isExpanded }) => {return (
     <div  className={`about-me ${isExpanded ? 'expanded' : ''}`}>
         <Nav />
-
+        <h6 >Portifólio ainda em desenvolvimento</h6>
 <section className={"sobre-content"}>
 
 <div className={"sobre2"}>

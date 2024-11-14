@@ -5,6 +5,7 @@ import "../Estudos/script"
 const Estudos = () => {return (
     <div className="estudos">
         <Nav  />
+        <h6 >Portifólio ainda em desenvolvimento</h6>
         <section className={"titulo-content"}>
         <h3 id={"tituloEstudos"}>Dediquei esta página para mostrar meus pontos de vista sobre meus estudos 
         e como implemento  o que aprendi.

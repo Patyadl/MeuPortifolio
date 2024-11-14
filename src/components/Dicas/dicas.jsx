@@ -4,6 +4,7 @@ import "../Dicas/dicas.css"
 const Dicas = () => {return (
     <div>
         <Nav />
+        <h6 >Portifólio ainda em desenvolvimento</h6>
     <section className={"dicas"}>
         <h2><span id={"ponto"}>.</span>Nunca se compare com os outros;</h2>
         <h2><span id={"ponto"}>.</span>Praticar lógica é essencial;</h2>
