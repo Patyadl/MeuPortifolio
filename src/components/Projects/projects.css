@@ -96,21 +96,21 @@
     padding: 1rem;
     box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.4);
     border-radius: 25px;
-    background-color: #3a26e7;
+    background-color: #006494;
     width: 30%;
     height: auto;
 }
 
 
 #txt {
-    color: #f4f4f4;
+    color: #FAF9F6;
     text-align: center;
     font-size: large;
     overflow-wrap: break-word;
 }
 
 .projetoStart-container:hover, .universidade-container:hover, .universidade-projetos:hover {
-    background-color:  #3926e76f;
+    background-color:  #00659483;
 }
 
 .projetoStart-container:hover .start,

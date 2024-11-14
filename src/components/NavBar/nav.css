@@ -4,12 +4,12 @@ nav #logo {
     text-align: center;
     font-size: xx-large;
     line-height: 0.8;
-
+gap: 2;
 }
 
 nav {
-    background-color: #f4f4f4;
-    color: #3a26e7;
+    background-color: #FAF9F6;
+    color: #006494;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -26,16 +26,16 @@ nav {
     color: inherit;
   }
   .link:hover{
-    color: #3926e76f;
+    color: #006594a9;
   }
 .imgPerfil {
     background-image: url("../../assets/eu.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    padding: 2.50rem;
+    padding: 2rem;
     margin: 0;
     border-radius: 50%;
-    border: #3a26e7 solid 2px;
+    border: #006494 solid 3px;
 }
 .seta {
     background-image: url("../../assets/setaAzul.png");

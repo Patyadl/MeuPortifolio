@@ -5,7 +5,7 @@
     
 }
 body {
-    background-color: #f4f4f4;
+    background-color: #FAF9F6;
     margin: 0;
     padding: 0;
 }
@@ -18,14 +18,14 @@ body {
     left: 0;
     width: 200px;
     height: 100px;
-    background:#3a26e7;;
+    background:#006494;
     border-radius: 50% / 100% 100% 0 0;
     overflow: hidden;
     
 }
 #semicirculo h1 {
     text-align: center;
-    color: #f4f4f4;
+    color: #FAF9F6;
     font-size: x-large;
     line-height: 1;
     display: flex;
