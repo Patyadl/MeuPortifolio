@@ -22,7 +22,7 @@ const Sobre = ({ isExpanded }) => {return (
 <div className={"avatarSobre"}></div>
 <div className="links">
 
-<a id={"linkGithub"}  href="https://www.linkedin.com/in/patr%C3%ADcia-lucena-02327b234/"><div className="github"></div></a>
+<a id={"linkGithub"}  href="https://github.com/Patyadl"><div className="github"></div></a>
 <a id={"linkLinkedin"}  href="https://www.linkedin.com/in/patr%C3%ADcia-lucena-02327b234/"><div className="linkedin"></div></a>
 </div>
 
