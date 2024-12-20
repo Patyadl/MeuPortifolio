@@ -1,179 +1,256 @@
 * {
     margin: 0;
     padding: 0;
-        font-family: 'Comick';
-    
-}
-body {
+    font-family: 'Comick';
+  }
+  
+  body {
     background-color: #FAF9F6;
     margin: 0;
     padding: 0;
-}
-
-
-/* --------------------------------------------------*/
-#semicirculo {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 200px;
-    height: 100px;
-    background:#006494;
-    border-radius: 50% / 100% 100% 0 0;
-    overflow: hidden;
-    
-}
-#semicirculo h1 {
-    text-align: center;
-    color: #FAF9F6;
-    font-size: x-large;
-    line-height: 1;
+  }
+  
+  .container-home {
     display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-}
-
-.imgPc-content {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    width: 200px;
-    height: 170px;
-}
-#imgPc {
-    background-image: url("../../assets/pcIcone.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 8rem;
-
-}
-
-/*----------------------------------------------------------*/
-.icone {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap; 
-}
- .imgCyber {
-    background-image: url("../../assets/cyber.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 4rem;
-}
-.icones1-content{
-    display: flex;
-    justify-content: center;
-}
-.icones1-content{
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    margin-top: 2rem;
-}
-.imgJava {
-    background-image: url("../../assets/java.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 3rem;
-}
-.imgSpring {
-    background-image: url("../../assets/spring.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 3rem;
-}
-.imgFlex {
-    background-image: url("../../assets/flex.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 3rem;
-}
-.imgJS {
-    background-image: url("../../assets/js.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 3rem;
-}
-.icones2-content{
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    margin-top: 2rem;
-}
-
-.imgRuby {
-    background-image: url("../../assets/ruby.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 3rem;
-    margin-bottom: 2rem;
-}
-.imgAgile {
-    background-image: url("../../assets/agile.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 3rem;
-}
-.imgSql {
-    background-image: url("../../assets/sql.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-      padding: 3rem;
-}
-.imgReact {
-    background-image: url("../../assets/react.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-      padding: 3rem;
-}
-.icones{
-   
+    height: 100vh;
+    flex-wrap: wrap;
+  }
+  
+  .left-side,
+  .right-side {
+    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 2rem;
+  }
+  
+  .left-side {
+    background-color: #006594a9;
+    flex-direction: column;
+  }
+  
+  .right-side {
+    background-color: #fff;
+  }
+  
+  .icones-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .icones {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     flex-direction: column;
     width: 100%;
     background-size: cover;
     border-radius: 5px;
-
-}
-.icones-container {
+  }
+  
+  .icones1-content,
+  .icones2-content {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .imgCyber,
+  .imgJava,
+  .imgSpring,
+  .imgJS,
+  .imgTailwind,
+  .imgFlex,
+  .imgData,
+  .imgSql,
+  .imgReact {
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 3rem;
+  }
+  
+  .imgJava {
+    background-image: url("../../assets/java.png");
+  }
+  
+  .imgSpring {
+    background-image: url("../../assets/spring.png");
+  }
+  
+  .imgFlex {
+    background-image: url("../../assets/flex.png");
+  }
+  
+  .imgJS {
+    background-image: url("../../assets/js.png");
+  }
+  
+  .imgTailwind {
+    background-image: url("../../assets/tailwind.png");
+    border-radius: 5px;
+  }
+  
+  .imgData {
+    background-image: url("../../assets/dataScience.png");
+  }
+  
+  .imgSql {
+    background-image: url("../../assets/sql.png");
+  }
+  
+  .imgReact {
+    background-image: url("../../assets/react.png");
+  }
+  
+  .icone {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+  
+  .bt {
+    margin-top: 6rem;
+  }
+  
+  #bt {
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: large;
+  }
+  
+  #bt:hover {
+    background-color: rgb(221, 219, 219);
+  }
+  
+  .container-sobreMim {
+    padding: 2rem;
+  }
+  
+  .avatarSobre {
+    background-image: url("../../assets/eu.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 6rem;
+    margin: 2rem;
+    border-radius: 50%;
+  }
+  
+  .links {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-}
-
-@media only screen and (max-width: 600px) {
-    nav {
-        flex-direction: column;
-        text-align: center; 
+    gap: 1rem;
+  }
+  
+  .github:hover,
+  .linkedin:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+    transition: transform 0.3s, opacity 0.3s;
+  }
+  
+  .github,
+  .linkedin {
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 2rem;
+    height: 50px;
+  }
+  
+  #funcao {
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .container-home {
+      flex-direction: column;
     }
-    .imgPerfil{
-        padding: 2rem;
+  
+    .left-side,
+    .right-side {
+      width: 100%;
+      padding: 1rem;
     }
-    .seta{
-        padding: 0.65rem;
+  
+    .imgCyber,
+    .imgJava,
+    .imgSpring,
+    .imgJS,
+    .imgTailwind,
+    .imgFlex,
+    .imgData,
+    .imgSql,
+    .imgReact {
+      padding: 2rem;
+      width: 50%;
+      height: 50px;
     }
-    #semicirculo {
-        width: 100px;
-        height: 50px;
+  
+    .icones1-content,
+    .icones2-content {
+      flex-direction: column;
+      gap: 1rem;
+      margin-top: 1rem;
     }
-    #semicirculo h1 {
-        font-size: medium;
-        margin-top: 1rem;
+  
+    .bt {
+      margin-top: 4rem;
     }
-    #imgMenina {
-        padding: 2.5rem;
+  
+    .avatarSobre {
+      padding: 4rem;
     }
-    .icone {
-        padding: 1rem; 
-        margin-top: 2rem;
-        margin-bottom: 1rem;
+  
+    .links {
+      gap: 0.5rem;
     }
-    .imgJava, .imgAgile,.imgFlex,.imgJS,.imgReact,.imgRuby,.imgSql,.imgSpring{
-padding: 2rem;
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .container-home {
+      flex-direction: column;
     }
-}
+  
+    .left-side,
+    .right-side {
+      width: 100%;
+    }
+  
+    .imgCyber,
+    .imgJava,
+    .imgSpring,
+    .imgJS,
+    .imgTailwind,
+    .imgFlex,
+    .imgData,
+    .imgSql,
+    .imgReact {
+      padding: 1.5rem;
+      width: 40%;
+      height: 40px;
+    }
+  
+    .icones1-content,
+    .icones2-content {
+      flex-direction: column;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+  
+    .bt {
+      margin-top: 3rem;
+    }
+  
+    .avatarSobre {
+      padding: 3rem;
+    }
+  
+    .github,
+    .linkedin {
+      padding: 1.5rem;
+    }
+  }
+  

@@ -14,15 +14,8 @@ const Nav = () => {
       <h2 id={"logo"}><Link to="/" className={"link"}> Meu <br /> Portifólio </Link></h2>
       <h2 id={"menu"}><Link to="/projetos" className={"link"}>projetos </Link></h2>
       <h2 id={"menu"}><Link to="/estudos" className={"link"}> estudos </Link></h2>
-      <h2 id={"menu"}><Link to="/dicas" className={"link"}> dicas </Link></h2>
       <h2 id={"menu"}><Link to= "/livros" className={"link"}> livros favoritos </Link></h2>
-       
-      <div className={"inline"} onClick={handleClick}>
-        <div className={"imgPerfil"}></div>
-        <div className={`seta ${isClicked ? 'rotate' : ''}`}></div>
-        {isClicked && <h2 id={"menu"} className={'sobre'}><Link to="/sobre" className={"link"}> Sobre mim </Link></h2>}
 
-      </div>
     </nav>
   )
 }

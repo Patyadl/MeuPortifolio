@@ -1,46 +1,64 @@
 import React from "react";
-import "../Home/home.css"
-import Nav from "../NavBar/nav.jsx";
-const Home = () =>{ return (
-    <div>
+import "../Home/home.css";
+import { Link } from "react-router-dom";
+
+const Home = () => {
+  return (
+    <div className="container-home">
+      <div className="left-side">
+        <section className="icones-container">
+          <section className="icones">
+            <h6>Portifólio ainda em desenvolvimento</h6>
+            <section className="icone">
+              <div className="imgCyber"></div>
+            </section>
+            <section className="icones1-content">
+              <div className="imgJava"></div>
+              <div className="imgSpring"></div>
+              <div className="imgReact"></div>
+              <div className="imgJS"></div>
+            </section>
+            <section className="icones2-content">
+              <div className="imgTailwind"></div>
+              <div className="imgFlex"></div>
+              <div className="imgData"></div>
+              <div className="imgSql"></div>
+          
+            </section>
+          </section>
+        </section>
+
+<div className="bt">
+<button id="bt"><Link to="/projetos" className={"link"}>Saiba mais </Link></button>
+</div>
        
-      <Nav/>
-       <section className={"borda"}>
-       <div id="semicirculo"> <h1>Patrícia <br /> Lucena</h1> 
-       
-       </div>
-       
-<h6 >Portifólio ainda em desenvolvimento</h6>
-</section>
+      </div>
 
-<section className={"imgPc-content"}>
-<div id="imgPc"></div>
-</section>
 
-<section className={"icones-container"}>
-<section className={"icones"}> 
-<section className={"icone"}>
-     <div className={"imgCyber"}></div>
-</section>
+      <div className="right-side">
+        <div className="container-sobreMim">
+          <div className="sobreMim">
+          <div>
+<div className={"avatarSobre"}>
+    
+</div>
+<h3 id="funcao">Desenvolvedora Web</h3>
 
-<section className={"icones1-content"}>
-<div className={"imgJava"}></div>
-    <div className={"imgSpring"}></div>
-    <div className={"imgFlex"}></div>
-    <div className={"imgJS"}></div>
-</section>
+<div className="links">
 
-<section className={"icones2-content"}>
-<div className={"imgRuby"}></div>
-    <div className={"imgAgile"}></div>
-    <div className={"imgSql"}></div>
-    <div className={"imgReact"}></div>
-</section>
-</section>
+<a id={"linkGithub"}  href="https://www.linkedin.com/in/patr%C3%ADcia-lucena-02327b234/"><div className="github"></div></a>
+<a id={"linkLinkedin"}  href="https://www.linkedin.com/in/patr%C3%ADcia-lucena-02327b234/"><div className="linkedin"></div></a>
+</div>
 
-</section>
+</div>
+          </div>
+        </div>
+      </div>
+
+
 
     </div>
-)}
+  );
+};
 
-export default Home
+export default Home;
