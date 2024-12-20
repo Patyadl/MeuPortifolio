@@ -138,6 +138,22 @@
     border-radius: 50%;
   }
   
+  #linkGithub, #linkLinkedin{
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 2rem;
+    height: 50px;
+
+  }
+  #linkGithub {
+    background-image: url("../../assets/github.png");
+
+  }
+  #linkLinkedin{
+    background-image: url("../../assets/linkedin.png");
+padding: 2.50rem;
+  }
+
   .links {
     display: flex;
     justify-content: center;
@@ -145,20 +161,14 @@
     gap: 1rem;
   }
   
-  .github:hover,
-  .linkedin:hover {
+  #linkGithub:hover,
+  #linkLinkedin:hover {
     opacity: 0.8;
     transform: scale(1.05);
     transition: transform 0.3s, opacity 0.3s;
   }
   
-  .github,
-  .linkedin {
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 2rem;
-    height: 50px;
-  }
+
   
   #funcao {
     text-align: center;
