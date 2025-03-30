@@ -4,62 +4,34 @@ nav #logo {
     text-align: center;
     font-size: xx-large;
     line-height: 0.8;
-gap: 2;
+    gap: 2;
 }
 
 nav {
-    background-color: #FAF9F6;
-    color: #006494;
+    background-color: #D4D6D7;
+     color:  #21405B;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
     padding: 20px;
     box-sizing: border-box;
     flex-wrap: wrap; 
     box-shadow: 0px 15px 8px rgba(0, 0, 0, 0.2);
-    
+    border-radius: 15px;
 }
-
+nav h4{
+  padding: 0.5rem 1rem; 
+  border-radius: 10px; 
+  transition: background-color 0.3s ease;
+}
+nav h4:hover {
+  color: #f4f4f4; 
+  background-color: #21405B; 
+  display: inline-block;
+}
 .link{
     text-decoration: none;
     color: inherit;
   }
-  .link:hover{
-    color: #006594a9;
-  }
-.imgPerfil {
-    background-image: url("../../assets/eu.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 2rem;
-    margin: 0;
-    border-radius: 50%;
-    border: #006494 solid 3px;
-}
-.seta {
-    background-image: url("../../assets/setaAzul.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 0.50rem;
-  margin-left: 2rem;
-  
-   
-}
 
-.inline{
-    display: flex;
-    align-items: center;
-}
 
-.seta {
-  transition: transform 0.3s ease-in-out;
-}
-
-.seta.rotate {
-  transform: rotate(90deg);
-}
-
-.sobre {
-  margin-left: 35px;
-}

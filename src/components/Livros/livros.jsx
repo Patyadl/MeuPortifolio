@@ -4,7 +4,7 @@ import "../Livros/livros.css"
 const Estudos = () => {return (
     <div>
         <Nav />
-        <h6 >Portifólio ainda em desenvolvimento</h6>
+     
     <section className={"livros-content"}>
        
        <section className={"livros"}>
@@ -23,14 +23,14 @@ const Estudos = () => {return (
         <div className={"livro"}>
             
         <div className={"livroJava"}></div>
-        <div id={"nota"}>Um pouco favorito</div>
+        <div id={"nota"}>Pareceu até que Java é divertido</div>
         </div>
         
       
             <div className={"livro"}>
             
             <div className={"livroRedes"}></div>
-                <div id={"nota"}>Menos favorito
+                <div id={"nota"}>Isso aqui é obra prima
                 </div>
                 </div>
            

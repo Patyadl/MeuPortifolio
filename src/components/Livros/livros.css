@@ -1,75 +1,90 @@
-.livroJava  {
-    background-image: url("../../assets/livroJava.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 10rem;
-}
-
-.livroSeguranca{
-    background-image: url("../../assets/livroSeguranca.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 10rem;
-    
-}
-.livroRedes{
-    background-image: url("../../assets/livroRedes.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-   padding: 10rem;
-}
-.livroSistemas{
-    background-image: url("../../assets/livroSistemas.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-     padding: 10rem;
-    
-}
-
-.livros {
+.livros-content {
+    background-color: #D4D6D7;
+    color: #21405B;
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: 12px 12px 35px rgba(0, 0, 0, 0.25);
+    max-width: 90%;
+    margin: 2rem auto;
+  }
+  
+  .livros {
     display: flex;
     justify-content: center;
     align-content: center;
-    margin-top: 8rem;
-    gap: 4rem;
-}
-.livro #nota{
-   display: flex;
-justify-content: center;
-align-items: center;
-border-radius: 5px;
-padding: 15px 8px;
-width: 65%;
-font-size: medium;
-color: #0f0f0f;
-border: #006494 solid 2px;
-margin-top: 1rem;
-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.6);
-text-align: center;
-}
+    margin-top: 3rem;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .livro {
+    background-color: #F8FAFC;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 6px 6px 18px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .livro:hover {
+    transform: scale(1.05);
+    box-shadow: 8px 8px 22px rgba(0, 0, 0, 0.4);
+  }
+  
+  .livro #nota {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 12px;
+    width: 80%;
+    font-size: medium;
+    color: #21405B;
+    border: #006494 solid 2px;
+    margin-top: 1rem;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.6);
+    background-color: #E8EDF1;
+    position: relative;
+  }
+  
+  .livro #nota::after {
+    content: " \1F680"; 
+    font-size: 1.2rem;
+    margin-left: 8px;
+  }
 
-@media only screen and (max-width: 800px) {
- 
-    .livroJava,.livroRedes,.livroRedes,.livroSeguranca,.livroSistemas{
-  padding: 6rem;
-     
-    }
   
-     .livros {
- display: flex;
- flex-direction: row;
-        flex-wrap: wrap;
-        margin-top: 2rem;
-      }
-      .livro #nota{
-     border-radius: 5px;
-     padding: 10px 6px;
-     font-size: small;
+
+  .livroJava, .livroSeguranca, .livroRedes, .livroSistemas {
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 9rem;
+  }
   
-     }
-    .livros-content{
-        margin-left: 4rem;
+  .livroJava {
+    background-image: url("../../assets/livroJava.png");
+  }
+  .livroSeguranca {
+    background-image: url("../../assets/livroSeguranca.png");
+  }
+  .livroRedes {
+    background-image: url("../../assets/livroRedes.png");
+  }
+  .livroSistemas {
+    background-image: url("../../assets/livroSistemas.png");
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .livros {
+      flex-direction: column;
+      align-items: center;
     }
-    
-      
-}
+    .livroJava, .livroSeguranca, .livroRedes, .livroSistemas {
+      padding: 7rem;
+    }
+    .livro #nota {
+      font-size: small;
+      padding: 10px;
+    }
+  }
+  
