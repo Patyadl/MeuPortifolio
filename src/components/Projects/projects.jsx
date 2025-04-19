@@ -31,7 +31,7 @@ const Project = () => {
     {
       titulo: "Projeto para a Ferreira Costa",
       imagem: "projetoFC",
-      descricao: "Sistema interno de organização e controle de tarefas para a empresa Ferreira Costa, solicitado me parceria com o porto digital. Aqui desenvolvi esse card exibido. Foi aqui que aprendi React, flexbox e grid. O mundo da programação mudou para mim, quando aprendi de fato como as páginas se comunicam até se formar um site. Foi uma jornada rápida de 3 meses, mas bastante interessante.",
+      descricao: "Sistema interno de organização e controle de tarefas para a empresa Ferreira Costa, solicitado em parceria com o porto digital. Aqui desenvolvi esse card exibido. Foi aqui que aprendi React, flexbox e grid. O mundo da programação mudou para mim, quando aprendi de fato como as páginas se comunicam até se formar um site. Foi uma jornada rápida de 3 meses, mas bastante interessante.",
       descricao2: "Resultado final: aprendi React, criar estados e  Responsividade com flexbox.",
     },
     {
@@ -70,6 +70,7 @@ const Project = () => {
           </div>
         ))}
       </div>
+      
 
       {isOverlayVisible && (
         <div id="overlay" className="overlay">

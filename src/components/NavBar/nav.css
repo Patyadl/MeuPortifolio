@@ -38,6 +38,13 @@ nav h4:hover {
   text-decoration: none;
   color: inherit;
 }
+.link.active {
+  color: #f4f4f4;
+  background-color: #21405B;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
 
 .container-home{
   display: flex;
