@@ -1,12 +1,12 @@
 import React from 'react';
-import Sobre from "../components/SobreMim/sobre"
+import Cargo from '../components/Cargo/Cargo';
 import Nav from '../components/NavBar/nav';
-const sobrePage = () => {
+const cargo = () => {
   return (
   <div>
   <Nav />
-  <Sobre/>
+  <Cargo/>
   </div>
 )};
 
-export default sobrePage
+export default cargo

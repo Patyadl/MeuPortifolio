@@ -1,7 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Comick';
+  /* font-family: 'Comick'; */
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -35,6 +36,7 @@ body {
   text-align: center;
   display: flex;
  justify-content:space-evenly;
+ 
 }
 .menu h5{
   margin-top: 1.50rem;
@@ -110,39 +112,6 @@ body {
   padding: 10rem;
   background-image: url("../../assets/foguete.png");
 }
-.planetas {
-  position: fixed; 
-  top: -120%; 
-  right: 20px; 
-  display: flex;
-  flex-direction: column; 
-  gap: 10px; 
-}
-
-.planeta1, .planeta2, .planeta3 {
-  background-size: cover; 
-  background-repeat: no-repeat; 
-}
-
-.planeta1 {
-  width: 100px;
-  height: 100px;
-  background-image: url("../../assets/planetaUm.png");
-}
-
-.planeta2 {
-  width: 125px; 
-  height: 125px;
-
-  background-image: url("../../assets/planetaDois.png"); 
-}
-
-.planeta3 {
-  width: 135px; 
-  height: 135px;
-
-  background-image: url("../../assets/planetaTres.png"); 
-}
 
 .astronauta {
   position: fixed; /* Posicionamento independente */
@@ -181,7 +150,7 @@ body {
 
 /* responsividade */
 @media (max-width: 1068px) {
-  .figuras_direita, .figuras_esquerda , .planetas, .linguagens_ferramentas, .astronauta , #frase{
+  .figuras_direita, .figuras_esquerda ,  .linguagens_ferramentas, .astronauta , #frase{
     display: none;
   }
   .container-home {

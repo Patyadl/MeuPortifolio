@@ -7,11 +7,6 @@ const Home = () => {
   return (
     <div className="container-home">
       <div className="figuras_direita">
-        <div className="planetas">
-          <div className="planeta3"></div>
-          <div className="planeta2"></div>
-          <div className="planeta1"></div>
-        </div>
         <div className="foguete"></div>
       </div>
       
@@ -23,14 +18,15 @@ const Home = () => {
 
       <div className="container">
         <div className="menu">
-          <h3>Meu <br /> portifólio</h3>
-          <h5><Link to= "/jornada" className={"link"}> Minha jornada </Link></h5>
-          <h5>Projetos</h5>
+          <h3>Meu <br /> portifólio</h3> 
+           <h5><Link to= "/jornada" className={"link"}> Minha jornada </Link></h5>
+          <h5><Link to= "/projetos" className={"link"}> Projetos </Link></h5>
           <h5 id={"menu"}><Link to= "/livros" className={"link"}> Livros favoritos </Link></h5>
-          <h5>Cargo atual</h5>
-          <h5>Contatos</h5>
+          <h5 id={"menu"}><Link to= "/cargo" className={"link"}> Cargo atual </Link></h5>
+          <h5 id={"menu"}><Link to= "/contatos" className={"link"}> Contatos </Link></h5>
+         
         </div>
-
+   
         <div className="Centralizar_minhaFoto">
           <div className="minhaFoto"></div>
         </div>

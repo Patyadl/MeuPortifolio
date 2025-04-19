@@ -34,4 +34,45 @@ nav h4:hover {
     color: inherit;
   }
 
+  .link{
+  text-decoration: none;
+  color: inherit;
+}
+
+.container-home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  background-color: #D4D6D7;
+  position: absolute;
+  width: 1100px;
+  height: 660px;
+  border-radius: 20px;
+  box-shadow: 150px 150px 170px rgba(0, 0, 0, 0.35);
+
+}
+.menu{
+  text-align: center;
+  display: flex;
+ justify-content:space-evenly;
+}
+.menu h5{
+  margin-top: 1.50rem;
+  margin-top: 1.5rem; 
+  padding: 0.5rem 1rem; 
+  border-radius: 10px; 
+  transition: background-color 0.3s ease;
+}
+.menu h3{
+  margin-top: 0.50rem;
+}
+
+.menu h5:hover {
+  color: #f4f4f4; 
+  background-color: #21405B; 
+  display: inline-block;
+}
 
