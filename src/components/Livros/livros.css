@@ -74,17 +74,29 @@
     background-image: url("../../assets/livroSistemas.png");
   }
   
-  @media only screen and (max-width: 800px) {
-    .livros {
-      flex-direction: column;
-      align-items: center;
-    }
-    .livroJava, .livroSeguranca, .livroRedes, .livroSistemas {
-      padding: 7rem;
-    }
-    .livro #nota {
-      font-size: small;
-      padding: 10px;
-    }
+ @media only screen and (max-width: 800px) {
+  .livros {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    justify-items: center;
   }
-  
+
+  .livro {
+    width: 100%;
+    max-width: 180px;
+  }
+
+  .livroJava,
+  .livroSeguranca,
+  .livroRedes,
+  .livroSistemas {
+    padding: 6rem;
+  }
+
+  .livro #nota {
+    font-size: small;
+    padding: 10px;
+    width: 80%;
+  }
+}

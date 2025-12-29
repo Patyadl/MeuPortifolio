@@ -31,16 +31,26 @@ const Home = () => {
           <div className="minhaFoto"></div>
         </div>
         <h4 id="frase">#pensamentoCrítico</h4>
-        <div className="linguagens_ferramentas">
-          
-          <div className="java"></div>
-          <div className="spring"></div>
-          <div className="js"></div>
-          <div className="react"></div>
-          <div className="tailwind"></div>
-          <div className="postgre"></div>
-        </div>
-        <div className="astronauta"></div>
+
+
+<div className="centralizar-linguagens">
+    <div className="linguagens_ferramentas">
+  <div className="linguagens_ferramentas_1">
+    <div className="java"></div>
+    <div className="spring"></div>
+    <div className="js"></div>
+  </div>
+
+  <div className="astronauta"></div>
+
+  <div className="linguagens_ferramentas_2">
+    <div className="react"></div>
+    <div className="tailwind"></div>
+    <div className="postgre"></div>
+  </div>
+</div>
+</div>
+        
       </div>
     </div>
   );
