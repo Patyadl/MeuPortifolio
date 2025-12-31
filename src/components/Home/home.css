@@ -4,7 +4,11 @@
   font-family: 'Roboto', sans-serif;
 }
 
-
+.topo{
+  display: block;
+  margin:  auto;
+    padding: 0;
+}
 body {
   background-color: #93A1AC;
   color: #21405B;
@@ -157,108 +161,82 @@ body {
 
 
 @media (max-width: 768px) {
-  .figuras_direita,
-  .figuras_esquerda {
-    display: none;
-  }
-body{
-    overflow-y: hidden;
-}
-  
 
-  .astronauta {
-    width: 300px;
-    height: 300px;
-    bottom: -50px;
-  }
-
-  .java, .spring, .js, .react, .tailwind, .postgre {
-    width: 6rem;
-    height: 6rem;
-  }
-
-  #frase {
-    display: none;
-  }
 
   .container-home {
-    height: 100vh;
-    padding: 1rem;
+    min-height: 100vh;
   }
 
-
   .container {
+        height: auto;      
+    min-height: 100vh;  
     width: 100%;
     padding: 1.5rem 1rem;
     display: flex;
-    flex-wrap: wrap;
-        height: auto;
+    flex-direction: column;
     box-shadow: none;
   }
 
+  .topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
   .menu {
+    width: 55%;
+    display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.6rem;
     align-items: flex-start;
-    width: 60%;
+    order: 1; /* menu à esquerda */
   }
 
   .menu h3 {
     font-size: 1.4rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
   }
 
   .menu h5 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .Centralizar_minhaFoto {
-    width: 40%;
-    margin-top: 0;
+    width: 45%;
+    display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 0;
+    order: 2; /* foto à direita */
   }
 
   .minhaFoto {
-    width: 320px;
-    height: 320px;
-  }
-.centralizar-linguagens{
-  width: 100%;
- display: flex;
-   justify-content: center;
-   align-items: center;
-}
-  
-
-  .linguagens_ferramentas_1,
-  .linguagens_ferramentas_2 {
-    display: flex;
-    flex-direction: column;
- 
-    
+    width: 220px;
+    height: 220px;
   }
 
   .linguagens_ferramentas {
     display: grid;
     grid-template-columns: 1fr auto 1fr;
     align-items: center;
+    margin-top: 1.5rem;
   }
 
-  .java, .spring, .js, .react, .tailwind, .postgre {
-    width: 8rem;
-    height: 8rem;
-    margin-top: 1rem;
- margin:auto;
- 
+  .linguagens_ferramentas_1,
+  .linguagens_ferramentas_2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
   }
 
   .astronauta {
-    position: relative;
-    margin-top: auto;
-    width: 280px;
-    height: 280px;
-  
+    position: static;
+    width: 220px;
+    height: 220px;
   }
-}
 
+  #frase {
+    display: none;
+  }
+
+}
