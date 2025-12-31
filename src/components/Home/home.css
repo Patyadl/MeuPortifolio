@@ -178,6 +178,7 @@ body {
   display: flex;
   flex-direction: column;
   box-shadow: none;
+  gap: 8rem;
 }
 
 
@@ -185,6 +186,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  
   }
 
   .menu {
@@ -197,12 +199,12 @@ body {
   }
 
   .menu h3 {
-    font-size: 1.4rem;
+    font-size: 2rem;
     margin-left: 1rem;
   }
 
   .menu h5 {
-    font-size: 1.1rem;
+    font-size: 1.6rem;
   }
 
   .Centralizar_minhaFoto {
@@ -218,9 +220,9 @@ body {
     width: 220px;
     height: 220px;
   }
-  .centralizar-linguagens {
-    margin-top: 0.5rem;
-  }
+  /* .centralizar-linguagens {
+    margin-top: 18rem;
+  } */
 
 
   .linguagens_ferramentas {
