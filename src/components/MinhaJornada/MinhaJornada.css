@@ -1,16 +1,17 @@
 /* PÁGINA */
 .minha-jornada {
-  height: 100vh;              /* trava altura da tela */
+  height: 100dvh;      
   display: flex;
   flex-direction: column;
-  overflow: hidden;           /* impede scroll global */
+  overflow: hidden;
 }
 
 /* CONTEÚDO QUE ROLA */
 .minha-jornada-container {
-  flex: 1;                    /* ocupa tudo abaixo da Nav */
-  overflow-y: auto;           /* ✅ SCROLL AQUI */
-  
+  flex: 1;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch; 
+
   background-color: #21405B;
   font-family: 'Comick', sans-serif;
   color: #f4f4f4;
@@ -21,6 +22,7 @@
   flex-direction: column;
   align-items: center;
 }
+
 
 
 .timeline-title {
@@ -169,6 +171,7 @@
     align-items: flex-start;
     gap: 0.6rem;
     padding: 1rem;
+ 
   }
 
   .icon {
@@ -183,7 +186,8 @@
     opacity: 1;
     visibility: visible;
     transform: none;
-    font-size: 0.95rem;
+    font-size: 1.2rem;
+    
   }
 
   .timeline-title {
@@ -199,17 +203,19 @@
     display: none;
   }
 
-  .timeline-item::after {
-    display: none;
-  }
+
 }
 
 @media (max-width: 480px) {
+    .minha-jornada-container{
+     scroll-behavior: smooth;
+    
+  }
   .timeline-title {
     font-size: 1.7rem;
   }
 
   .text {
-    font-size: 0.85rem;
+    font-size: 1rem;
   }
 }
