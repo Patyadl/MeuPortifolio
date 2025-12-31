@@ -163,10 +163,6 @@ body {
 @media (max-width: 768px) {
 
 
-  .container-home {
-    min-height: 100vh;
-  }
-
   .container {
         height: auto;      
     min-height: 100vh;  
