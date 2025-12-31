@@ -246,14 +246,15 @@ body{
   }
 
   .java, .spring, .js, .react, .tailwind, .postgre {
-    width: 4rem;
-    height: 4rem;
+    width: 6rem;
+    height: 6rem;
     margin: auto;
  
   }
 
   .astronauta {
     position: relative;
+    margin-top: auto;
     width: 280px;
     height: 280px;
   
