@@ -88,8 +88,8 @@ const Project = () => {
               &times;
             </span>
             <div className={`imgProjetoGrande ${overlayContent.imagem}`}></div>
-            <p>{overlayContent.descricao}</p>
-            <p><strong>{overlayContent.descricao2}</strong></p>
+            <p className={"descricao"}>{overlayContent.descricao}</p>
+            <p className={"descricao"}><strong>{overlayContent.descricao2}</strong></p>
             <br />
                <a
     href={overlayContent.link}

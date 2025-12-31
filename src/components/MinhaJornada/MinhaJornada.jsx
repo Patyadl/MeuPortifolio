@@ -15,7 +15,7 @@ const MinhaJornada = () => {
   return (
     <div className="minha-jornada">
       <Nav />
-      <div className="minha-jornada-container">
+      <main className="minha-jornada-container">
         <h1 className="timeline-title">Minha Jornada</h1>
         <div className="timeline">
           {timelineData.map((item, index) => (
@@ -31,7 +31,7 @@ const MinhaJornada = () => {
         </div>
         <div className="decorative-astronaut"></div>
         <div className="decorative-astronaut-2"></div>
-      </div>
+      </main>
     </div>
   );
 };

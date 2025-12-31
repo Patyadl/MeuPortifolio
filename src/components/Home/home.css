@@ -4,9 +4,11 @@
   font-family: 'Roboto', sans-serif;
 }
 
+
 body {
   background-color: #93A1AC;
   color: #21405B;
+   overflow-x: hidden;
 }
 
 .link {
@@ -159,11 +161,10 @@ body {
   .figuras_esquerda {
     display: none;
   }
-
-  .container {
-    height: auto;
-    box-shadow: none;
-  }
+body{
+    overflow-y: hidden;
+}
+  
 
   .astronauta {
     width: 300px;
@@ -175,17 +176,13 @@ body {
     width: 6rem;
     height: 6rem;
   }
-}
-
-
-@media (max-width: 768px) {
 
   #frase {
     display: none;
   }
 
   .container-home {
-    height: auto;
+    height: 100vh;
     padding: 1rem;
   }
 
@@ -195,8 +192,9 @@ body {
     padding: 1.5rem 1rem;
     display: flex;
     flex-wrap: wrap;
+        height: auto;
+    box-shadow: none;
   }
-
 
   .menu {
     flex-direction: column;

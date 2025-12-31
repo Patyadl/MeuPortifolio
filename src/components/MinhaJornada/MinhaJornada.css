@@ -1,207 +1,215 @@
+/* PÁGINA */
+.minha-jornada {
+  height: 100vh;              /* trava altura da tela */
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;           /* impede scroll global */
+}
+
+/* CONTEÚDO QUE ROLA */
 .minha-jornada-container {
-    background-color: #21405B; 
-    font-family: 'Comick', sans-serif;
-    color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+  flex: 1;                    /* ocupa tudo abaixo da Nav */
+  overflow-y: auto;           /* ✅ SCROLL AQUI */
   
+  background-color: #21405B;
+  font-family: 'Comick', sans-serif;
+  color: #f4f4f4;
 
-  .timeline-container {
-    text-align: center;
-    padding: 2rem;
-    position: relative; 
-  }
-  
-  .timeline-title {
-    font-size: 2.5rem;
-    margin-bottom: 3rem;
-    color: #f4f4f4;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-  }
-  
-  .timeline {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
-    position: relative;
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
-  /* Linha do Tempo */
-  .timeline-item {
-    position: relative;
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    padding: 1rem 2rem;
-    border: 2px solid #93A1AC;
-    border-radius: 10px;
-    background-color: #D4D6D7;
-    width: 100%;
-    max-width: 700px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .timeline-item:hover {
-    transform: scale(1.05);
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
-  }
-  
-  .icon {
-    font-size: 2.5rem;
-    color: #21405B;
-  }
-  
-  .year {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #21405B;
-  }
-  
-  .text {
-    flex: 1;
-    background-color: #93A1AC;
-   color: #131313;
-    padding: 1rem;
-    border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(10px);
-    transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
-  }
- 
-  
-  .timeline-item:hover .text {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
-  }
-  
+  padding: 2rem 1rem;
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.timeline-title {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #f4f4f4;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.timeline {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 4rem;
+}
 
 .timeline::before {
-  content: ""; 
-  position: fixed; 
-  left: 50%; 
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
   width: 6px;
-  height: 100%; 
-  background-color: #cccccc; 
-  transform: translateX(-50%); 
-  z-index: -1; 
+  height: 100%;
+  background-color: #cccccc;
+  transform: translateX(-50%);
+  z-index: 0;
 }
-/* Linha conectando cada item */
+
+.timeline-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 1.5rem 2rem;
+  border: 2px solid #93A1AC;
+  border-radius: 12px;
+  background-color: #D4D6D7;
+  width: 100%;
+  max-width: 700px;
+  line-height: 1.6;
+  z-index: 1;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.timeline-item:hover {
+  transform: scale(1.04);
+  box-shadow: 0px 10px 22px rgba(0, 0, 0, 0.3);
+}
+
+.icon {
+  font-size: 2.5rem;
+  color: #21405B;
+  align-self: flex-start;
+}
+
+.year {
+  font-size: 1.4rem;
+  font-weight: bold;
+  background-color: #21405B;
+  color: #ffffff;
+  padding: 0.3rem 0.8rem;
+  border-radius: 8px;
+  white-space: nowrap;
+}
+
+.text {
+  flex: 1;
+  background-color: #93A1AC;
+  color: #131313;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+}
+
+.timeline-item:hover .text {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+
 .timeline-item::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    width: 6px;
-    height: 100%;
-    background-color: #cccccc; 
-    top: 100%;
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  width: 6px;
+  height: 2rem;
+  background-color: #cccccc;
+  transform: translateX(-50%);
 }
 
 .timeline-item:last-child::after {
-    display: none;
+  display: none;
 }
 
 
-  
-  .decorative-astronaut {
-    position: absolute;
-    bottom: 20%;
-    right: 5%;
-    width: 200px;
-    height: 200px;
-    background-image: url("../../assets/astronauta2.png"); 
-    background-size: contain;
-    background-repeat: no-repeat;
-    z-index: 0;
+.decorative-astronaut {
+  position: absolute;
+  bottom: 20%;
+  right: 5%;
+  width: 200px;
+  height: 200px;
+  background-image: url("../../assets/astronauta2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.decorative-astronaut-2 {
+  position: absolute;
+  bottom: -40%;
+  right: 80%;
+  width: 200px;
+  height: 200px;
+  background-image: url("../../assets/astronauta3.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+
+@media (max-width: 768px) {
+  .minha-jornada-container{
+     scroll-behavior: smooth;
+    
   }
+  .timeline {
+    gap: 1.2rem;
+    max-width: 95%;
+  }
+
+  .timeline-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.6rem;
+    padding: 1rem;
+  }
+
+  .icon {
+    font-size: 2rem;
+  }
+
+  .year {
+    font-size: 1.1rem;
+  }
+
+  .text {
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    font-size: 0.95rem;
+  }
+
+  .timeline-title {
+    font-size: 2rem;
+  }
+
+  .decorative-astronaut,
   .decorative-astronaut-2 {
-    position: absolute;
-    bottom: -50%;
-    right: 80%;
-    width: 200px;
-    height: 200px;
-    background-image: url("../../assets/astronauta3.png"); 
-    background-size: contain;
-    background-repeat: no-repeat;
-    z-index: 0;
+    display: none;
   }
-  
-  
-  /* Responsividade */
-  @media (max-width: 768px) {
-    .timeline {
-      gap: 1rem; 
-      max-width: 90%; 
-    }
-  
-    .timeline-item {
-      flex-direction: column;
-      gap: 0.5rem;
-      padding: 0.8rem 1rem;
-      max-width: 90%;
-    }
-  
-    .icon {
-      font-size: 2rem;
-    }
-  
-    .year {
-      font-size: 1.2rem;
-    }
-  
-    .text {
-      font-size: 0.9rem;
-      padding: 0.8rem;
-    }
-  
-    .timeline-title {
-      font-size: 2rem;
-    }
-  
-    .decorative-astronaut, 
-    .decorative-astronaut-2 {
-      display: none;
-    }
+
+  .timeline::before {
+    display: none;
   }
-  
-  @media (max-width: 480px) {
-    .timeline {
-      gap: 0.8rem;
-      max-width: 95%;
-    }
-  
-    .timeline-item {
-      padding: 0.6rem 0.8rem;
-      max-width: 95%;
-    }
-  
-    .icon {
-      font-size: 1.8rem;
-    }
-  
-    .year {
-      font-size: 1rem;
-    }
-  
-    .text {
-      font-size: 0.8rem;
-      padding: 0.6rem;
-    }
-  
-    .timeline-title {
-      font-size: 1.8rem;
-    }
+
+  .timeline-item::after {
+    display: none;
   }
-  
+}
+
+@media (max-width: 480px) {
+  .timeline-title {
+    font-size: 1.7rem;
+  }
+
+  .text {
+    font-size: 0.85rem;
+  }
+}

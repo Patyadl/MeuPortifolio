@@ -54,7 +54,7 @@ nav h4:hover {
 }
 .container {
   background-color: #D4D6D7;
-  position: absolute;
+  position: relative;
   width: 1100px;
   height: 660px;
   border-radius: 20px;

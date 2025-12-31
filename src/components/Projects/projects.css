@@ -120,13 +120,17 @@
   }
 
   .imgProjeto{
-    height: 130px;
+    height: 150px;
   }
   .imgProjetoGrande{
-    height: 140px;
+    height: 160px;
   }
   .tituloProjeto {
     font-size: 1rem;
+  }
+  .descricao{
+    font-size:1.2rem;
+   
   }
 }
 @media (max-width: 360px) {
