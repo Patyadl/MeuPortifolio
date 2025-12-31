@@ -246,9 +246,10 @@ body{
   }
 
   .java, .spring, .js, .react, .tailwind, .postgre {
-    width: 6rem;
-    height: 6rem;
-    margin: auto;
+    width: 8rem;
+    height: 8rem;
+    margin-top: 1rem;
+ margin:auto;
  
   }
 
