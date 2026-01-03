@@ -173,7 +173,7 @@ body {
 .container-home {   
    align-items: flex-start;
    padding-top: 0;
-  height: 100dvh;     
+  height:calc(100dvh - 1px);     
   overflow: hidden;   
   position: relative;
 }
