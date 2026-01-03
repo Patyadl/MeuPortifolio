@@ -34,8 +34,6 @@ const Home = () => {
           <div className="js"></div>
         </div>
 
-        <div className="astronauta"></div>
-
         <div className="linguagens_ferramentas_2">
           <div className="react"></div>
           <div className="tailwind"></div>
@@ -43,8 +41,9 @@ const Home = () => {
         </div>
       </div>
     </section>
-
+     
   </div>
+  <div className="astronauta"></div>
 </div>
   );
 };

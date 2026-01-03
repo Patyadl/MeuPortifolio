@@ -162,94 +162,114 @@ body {
 
 @media (max-width: 768px) {
 
-  .container-home {
-    align-items: flex-start;
-    padding-top: 0;
-    min-height: 100dvh;
-   
-  }
+/* html, body {
+  max-height: 100dvh;
+} */
 
-  .container {
-    height: auto;
-    min-height: auto;
-    width: 100%;
-    padding: 0.75rem 1rem;
-    display: flex;
-    flex-direction: column;
-    gap: clamp(2rem, 6vw, 4rem);
+body {
+  overflow-x: hidden;
+}
 
-    box-shadow: none;
-  }
+.container-home {   
+   align-items: flex-start;
+  height: 100dvh;     
+  overflow: hidden;   
+  position: relative;
+}
+
+
+
+.container {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  padding: 0.75rem 1rem 4.5rem; 
+  display: flex;
+  flex-direction: column;
+  gap: clamp(2rem, 6vw, 4rem);
+  box-shadow: none;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+
 
   .topo {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding-top: 0.5rem;
   }
 
   .menu {
     width: 55%;
     display: flex;
     flex-direction: column;
-    gap: 0.6rem;
-    align-items: flex-start;
-    order: 1;
+    gap: 0.8rem;
   }
 
   .menu h3 {
-    font-size: 1.8rem;
+    font-size: 2.1rem;
     margin-left: 1rem;
   }
 
   .menu h5 {
-    font-size: 1.2rem;
+    font-size: 1.35rem;
   }
 
-.Centralizar_minhaFoto {
-  width: 45%;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-
-  padding-top: 6rem; 
-
-  order: 2;
-}
+  .Centralizar_minhaFoto {
+    width: 45%;
+    padding-top: 6rem;
+    display: flex;
+    justify-content: center;
+  }
 
   .minhaFoto {
-    width: 240px;
-    height: 240px;
+    width: 220px;
+    height: 220px;
   }
 
-.linguagens_ferramentas {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-}
+  .linguagens_ferramentas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
 
-.linguagens_ferramentas_1,
-.linguagens_ferramentas_2 {
-  display: flex;
-  flex-direction: row;
-  gap: 0.75rem;
-  justify-content: center;
-  order: 1; 
-}
+  .linguagens_ferramentas_1,
+  .linguagens_ferramentas_2 {
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
 
-.java, .spring, .js, .react, .tailwind, .postgre {
-  width: 6rem;
-  height: 6rem;
-}
+  .java,
+  .spring,
+  .js,
+  .react,
+  .tailwind,
+  .postgre {
+    width: 5.5rem;
+    height: 5.5rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 
-.astronauta {
-  position: static;
-  width: 280px;
-  height: 280px;
-  order: 2; 
-  opacity: 0.85;
-}
+ 
+  .astronauta {
+    position: fixed;
+    bottom: -60px;
+    right: 50%;
+    transform: translateX(50%);
+    width:310px;
+    height: 310px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    z-index: 1; 
+    pointer-events: none;
+  }
 
   #frase {
     display: none;
