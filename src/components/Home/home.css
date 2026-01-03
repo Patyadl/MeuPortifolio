@@ -185,7 +185,7 @@ body {
   width: 100%;
   max-width: 100%;
   height: auto;
-  padding: 0.75rem 1rem 4.5rem; 
+  padding: 0.75rem 1rem 8rem; 
   display: flex;
   flex-direction: column;
   gap: clamp(2rem, 6vw, 4rem);
@@ -226,8 +226,8 @@ body {
   }
 
   .minhaFoto {
-    width: 220px;
-    height: 220px;
+    width: 260px;
+    height: 260px;
   }
 
   .linguagens_ferramentas {
@@ -252,8 +252,8 @@ body {
   .react,
   .tailwind,
   .postgre {
-    width: 5.5rem;
-    height: 5.5rem;
+    width: 7rem;
+    height: 7rem;
     background-size: contain;
     background-repeat: no-repeat;
   }
