@@ -162,11 +162,10 @@ body {
 
 @media (max-width: 768px) {
 
-  /* ===== CONTAINER GERAL ===== */
   .container-home {
     align-items: flex-start;
     padding-top: 0;
-    min-height: 100dvh; /* viewport real no mobile */
+    min-height: 100dvh;
    
   }
 
@@ -177,22 +176,15 @@ body {
     padding: 0.75rem 1rem;
     display: flex;
     flex-direction: column;
-
-    /* 🔽 MUDANÇA: gap gigante virou responsivo */
     gap: clamp(2rem, 6vw, 4rem);
 
     box-shadow: none;
   }
 
-  /* ===== TOPO ===== */
   .topo {
     display: flex;
     justify-content: space-between;
-
-    /* 🔽 MUDANÇA: não centraliza verticalmente */
     align-items: flex-start;
-
-    /* 🔽 MUDANÇA: leve respiro interno */
     padding-top: 0.5rem;
   }
 
@@ -205,7 +197,6 @@ body {
     order: 1;
   }
 
-  /* 🔽 MUDANÇA: tipografia mais equilibrada */
   .menu h3 {
     font-size: 1.8rem;
     margin-left: 1rem;
@@ -215,26 +206,22 @@ body {
     font-size: 1.2rem;
   }
 
-  /* ===== FOTO ===== */
-  .Centralizar_minhaFoto {
-    width: 45%;
-    display: flex;
-    justify-content: center;
+.Centralizar_minhaFoto {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 
-    /* 🔽 MUDANÇA: alinha com o topo do menu */
-    align-items: flex-start;
+  padding-top: 6rem; 
 
-    margin-top: 0;
-    order: 2;
-  }
+  order: 2;
+}
 
-  /* 🔽 MUDANÇA: foto levemente menor */
   .minhaFoto {
-    width: 200px;
-    height: 200px;
+    width: 240px;
+    height: 240px;
   }
 
-/* ===== LINGUAGENS + ASTRONAUTA ===== */
 .linguagens_ferramentas {
   display: flex;
   flex-direction: column;
@@ -242,34 +229,28 @@ body {
   gap: 1rem;
 }
 
-/* linguagens em cima */
 .linguagens_ferramentas_1,
 .linguagens_ferramentas_2 {
   display: flex;
   flex-direction: row;
   gap: 0.75rem;
   justify-content: center;
-  order: 1; /* 🔑 sobe tudo */
+  order: 1; 
 }
 
 .java, .spring, .js, .react, .tailwind, .postgre {
-  width: 4rem;
-  height: 4rem;
+  width: 6rem;
+  height: 6rem;
 }
 
-  /* ===== ASTRONAUTA ===== */
-/* astronauta embaixo */
 .astronauta {
   position: static;
-  width: 230px;
-  height: 230px;
-  order: 2; /* 🔑 desce */
+  width: 280px;
+  height: 280px;
+  order: 2; 
   opacity: 0.85;
 }
 
-
-
- 
   #frase {
     display: none;
   }
