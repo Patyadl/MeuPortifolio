@@ -145,8 +145,8 @@
 
 .decorative-astronaut-2 {
   position: absolute;
-  bottom: -40%;
-  right: 80%;
+  top: 15%;
+  right: 75%;
   width: 200px;
   height: 200px;
   background-image: url("../../assets/astronauta3.png");

@@ -64,7 +64,7 @@ const Project = () => {
   ];
 
   return (
-    <div>
+    <div className="projetos-page">
       <Nav />
 
       <div className="grid-container">
