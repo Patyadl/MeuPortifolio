@@ -16,6 +16,7 @@ const Nav = () => {
       </h2>
 
       <h4>
+        
         <Link to="/jornada" className={isActive("/jornada")}>
           Minha jornada
         </Link>
@@ -40,6 +41,7 @@ const Nav = () => {
           Contatos
         </Link>
       </h4>
+    
     </nav>
   );
 };
