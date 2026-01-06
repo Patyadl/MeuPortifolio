@@ -66,7 +66,10 @@ const Project = () => {
   return (
     <div className="projetos-page">
       <Nav />
-
+      <br />
+   <p style={{ color: "white", margin:"0.8rem" }}>
+  Clique nas imagens para saber mais!
+</p>
       <div className="grid-container">
         {projetos.map((proj, index) => (
           <div
