@@ -175,10 +175,10 @@ body {
   .container {
     width: 100%;
     height: auto;
-    padding: 1rem 1rem 6rem;
+    padding: 1.2rem 1rem 6rem;
     border-radius: 16px;
     box-shadow: none;
-    transform: none; /* remove o deslocamento exagerado */
+    margin-top: 0;
   }
 
   /* TOPO */
@@ -186,7 +186,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1.6rem;
   }
 
   .menu {
@@ -197,23 +197,31 @@ body {
   }
 
   .menu h3 {
-    font-size: 1.8rem;
+    font-size: 2rem;
+    line-height: 2.2rem;
     text-align: center;
     margin-bottom: 0.5rem;
   }
 
   .menu h5 {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     width: 100%;
-    max-width: 260px;
+    max-width: 280px;
+    padding: 0.8rem 1rem;
     text-align: center;
-    background-color: #e6e7e8;
+    border-radius: 12px;
+    background-color: rgba(33, 64, 91, 0.08);
+  }
+
+  .menu h5:hover {
+    background-color: #21405B;
+    color: #fff;
   }
 
   /* FOTO */
   .Centralizar_minhaFoto {
     width: 100%;
-    padding-top: 0;
+    margin-top: 0.5rem;
   }
 
   .minhaFoto {
@@ -222,18 +230,21 @@ body {
   }
 
   /* LINGUAGENS */
+  .centralizar-linguagens {
+    margin-top: 1rem;
+  }
+
   .linguagens_ferramentas {
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
-    margin-top: 1rem;
+    gap: 1.2rem;
   }
 
   .linguagens_ferramentas_1,
   .linguagens_ferramentas_2 {
     flex-wrap: wrap;
     justify-content: center;
-    gap: 0.75rem;
+    gap: 0.8rem;
   }
 
   .java,
@@ -242,19 +253,20 @@ body {
   .react,
   .tailwind,
   .postgre {
-    width: 5.5rem;
-    height: 5.5rem;
+    width: 5.6rem;
+    height: 5.6rem;
   }
 
   /* ASTRONAUTA */
   .astronauta {
-    width: 260px;
-    height: 260px;
-    bottom: -80px;
-    right: 50%;
-    transform: translateX(50%);
-    opacity: 0.85;
+    position: fixed;
+    right: -140px;
+    bottom: -100px;
+    width: 300px;
+    height: 300px;
+    opacity: 0.75;
     pointer-events: none;
+    z-index: 0;
   }
 
   #frase {
