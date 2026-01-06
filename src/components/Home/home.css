@@ -10,7 +10,8 @@
     padding: 0;
 }
 body {
-  background-color: #93A1AC;
+  /* background-color: #93A1AC; */
+  background-color: #21405B;
   color: #21405B;
    overflow-x: hidden;
 }
@@ -168,47 +169,57 @@ body {
   }
 
   .container-home {
+
     align-items: flex-start;
     height: auto;
     padding: 1rem;
   }
 
   .container {
+    
     width: 100%;
     height: auto;
-    padding: 1.2rem 1rem 6rem;
+   padding: 1rem;
     border-radius: 16px;
     box-shadow: none;
     margin-top: 0;
   }
 
   /* TOPO */
-  .topo {
+  /* .topo {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.6rem;
-  }
+    gap: 1rem;
+  } */
+  .topo {
+  display: flex;
+  flex-direction: row;   
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+}
 
   .menu {
     width: 100%;
     flex-direction: column;
     align-items: center;
-    gap: 0.6rem;
+    gap: 0.5rem;
+    padding-left: 1.5rem;
   }
 
   .menu h3 {
-    font-size: 2rem;
-    line-height: 2.2rem;
+   font-size: 1.6rem;
+    line-height: 1.8rem;
     text-align: center;
-    margin-bottom: 0.5rem;
+
   }
 
   .menu h5 {
-    font-size: 1.15rem;
     width: 100%;
     max-width: 280px;
-    padding: 0.8rem 1rem;
+     font-size: 0.95rem;
+    padding: 0.6rem 0.9rem;
     text-align: center;
     border-radius: 12px;
     background-color: rgba(33, 64, 91, 0.08);
@@ -223,6 +234,8 @@ body {
   .Centralizar_minhaFoto {
     width: 100%;
     margin-top: 0.5rem;
+    padding-left: 1rem;
+  
   }
 
   .minhaFoto {
@@ -254,8 +267,8 @@ body {
   .react,
   .tailwind,
   .postgre {
-    width: 5.6rem;
-    height: 5.6rem;
+   width: 4.8rem;
+    height: 4.8rem;
   }
 
   /* ASTRONAUTA */
