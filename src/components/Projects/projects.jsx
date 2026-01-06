@@ -67,7 +67,7 @@ const Project = () => {
     <div className="projetos-page">
       <Nav />
       <br />
-   <p style={{ color: "white", margin:"0.8rem" }}>
+   <p style={{ color: "white", margin:"0.5rem" }}>
   Clique nas imagens para saber mais!
 </p>
       <div className="grid-container">
